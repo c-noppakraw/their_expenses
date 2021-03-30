@@ -1,6 +1,6 @@
 const { check } = require('express-validator');
 
-const validator_insert = [
+const validator = [
     check('description')
         .not()
         .isEmpty()
@@ -19,4 +19,4 @@ const validator_insert = [
         .withMessage('กรุณาระบุปี'),
 ];
 
-module.exports = { validator_insert };
+module.exports = { validator };

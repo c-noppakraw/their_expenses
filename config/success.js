@@ -6,7 +6,11 @@ const successCode = {
     ['created']: {
         code: 201,
         msg: 'Success'
-    }
+    },
+    ['update']: {
+        code: 201,
+        msg: 'Success'
+    },
 }
 
 module.exports = successCode;
