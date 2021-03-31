@@ -11,6 +11,10 @@ const errorCode = {
         code: 400,
         msg: 'Cant update data'
     },
+    ['cant_delete']: {
+        code: 400,
+        msg: 'Cant delete data'
+    },
 }
 
 module.exports = errorCode;

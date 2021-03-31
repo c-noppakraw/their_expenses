@@ -1,7 +1,7 @@
 const successCode = {
     ['success']: {
         code: 200,
-        msg: 'List Expenses'
+        msg: 'Expenses'
     },
     ['created']: {
         code: 201,
