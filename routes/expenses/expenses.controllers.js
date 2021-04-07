@@ -1,7 +1,6 @@
 const express = require('express');
 const { validationResult } = require('express-validator');
 const { Success, Error } = require('../../response');
-const { count } = require('./expenses.model');
 const Expenses = require('./expenses.model');
 
 const list_expenses = async (req, res, next) => {
